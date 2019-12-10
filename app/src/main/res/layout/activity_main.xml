@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Condition"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/messageSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textViewCondition"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Message Please"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/foggy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:text="FOGGY"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/sunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="SUNNY"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/messageSend"
+        android:layout_marginTop="80dp"
+        android:text="TextView"
+        android:textColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textViewShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Send" />
+
+</RelativeLayout>

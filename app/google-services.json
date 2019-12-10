@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11685579490",
+    "firebase_url": "https://firecast-aed59.firebaseio.com",
+    "project_id": "firecast-aed59",
+    "storage_bucket": "firecast-aed59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11685579490:android:7b5a65a16b4bc3549b2cbb",
+        "android_client_info": {
+          "package_name": "com.example.firecast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11685579490-2jqhegcmsee91i1i8joqq2527alvqfhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3y0QSbt4QQsklZnaUlHl7Jb_6TuxM8FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11685579490-2jqhegcmsee91i1i8joqq2527alvqfhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
